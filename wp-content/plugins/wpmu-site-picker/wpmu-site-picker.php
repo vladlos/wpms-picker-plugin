@@ -103,7 +103,7 @@ class WPMUsitepicker extends WP_Widget {
 			if($blog['blog_id'] != 1){
 				$bTitle =  get_blog_option( $blog['blog_id'], 'blogname');
 				if($blog_id == $blog['blog_id']){
-					$bTitle.=' (current)';
+					$bTitle=$bTitle."<b>*</b>";
 				}
 
 				$bUrl = get_blog_option( $blog['blog_id'], 'siteurl');
