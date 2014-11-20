@@ -1,0 +1,8 @@
+#st_select{
+    border: 1px solid #27373c;
+    color: #b5b5b5;
+    padding: 3px;
+    background-color: transparent;
+}
+#st_select *{color: #000000;}
+
